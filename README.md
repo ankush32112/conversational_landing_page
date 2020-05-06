@@ -28,7 +28,7 @@ services:
         image: makerobos/landing_page:latest
         command: "node dist/server"
         ports:
-             - "8000":"4800"
+             - "8000:4800"
         environment:
              - BOT=<bot-id>
 ```
